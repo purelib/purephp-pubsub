@@ -8,5 +8,10 @@
             "email": "register_lewis@163.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "purephp\\pubsub\\": "./"
+        }
+    },
     "require": {}
 }

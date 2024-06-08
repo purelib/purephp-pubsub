@@ -1,3 +1,8 @@
+# base
+.DS_Store
+*.log
+*.bak
+
 /vendor/
 node_modules/
 npm-debug.log

@@ -1,0 +1,12 @@
+{
+    "name": "purephp/pubsub",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "lewis-dev",
+            "email": "register_lewis@163.com"
+        }
+    ],
+    "require": {}
+}

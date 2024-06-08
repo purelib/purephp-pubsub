@@ -17,7 +17,7 @@ class Dispatcher implements Publisher, Subscriber
     public static function newInstance(EventDispatcher $dispatcher)
     {
         $instance = new self($dispatcher);
-        return self::$instance;
+        return $instance;
     }
 
     public function publish($topic, $message)

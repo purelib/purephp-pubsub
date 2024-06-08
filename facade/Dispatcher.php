@@ -19,11 +19,11 @@ class Dispatcher
 
     public static function publish($topic, $message)
     {
-        PubsubDispatcher::getInstance()->publish($topic, $message);
+        self::getInstance()->publish($topic, $message);
     }
 
     public static function subscribe(string $topic, callable $subscriber)
     {
-        PubsubDispatcher::getInstance()->subscribe($topic, $subscriber);
+        self::getInstance()->subscribe($topic, $subscriber);
     }
 }

@@ -13,5 +13,8 @@
             "purephp\\pubsub\\": "./"
         }
     },
-    "require": {}
+    "require": {
+        "php": ">= 7.1 < 7.4",
+        "league/event": "^3.0"
+    }
 }
